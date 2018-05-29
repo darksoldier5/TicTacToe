@@ -59,15 +59,15 @@ print('Welcome to tic tac toe')
 def game_starts():
     print_board()
     choose_marker()
-    t=0
-    p=0
+    f=0
+    h=0
     while t<5:
         take_input1()
         print_board()
-        t+=1
+        f+=1
     while p<4:
         take_input2()
-        p+=1
+        h+=1
         print_board()
     check_win()
     if play_again():
